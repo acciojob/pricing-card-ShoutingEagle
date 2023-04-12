@@ -1,6 +1,6 @@
 /*  your css code here. If applicable */
 *{
-	margin: 0px;
+	margin:0px;
 	padding: 0px;
 }
 .card{
@@ -8,7 +8,8 @@
 	background-colour:black;
 }
 .image img{
-	width: 100%;
+	width: 80%;
+	
 }
 .title{
 	text-align:center;
