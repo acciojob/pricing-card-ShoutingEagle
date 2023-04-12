@@ -4,9 +4,15 @@
 	padding: 0px;
 }
 .card{
-	width: 20%;
-	background-color:green;
+	width: 10%;
+	background-color:grey;
 }
 .image img{
-	width: 70%;
+	width: 100%;
+}
+.title{
+	text-align:center;
+}
+.price{
+	text-align:center;
 }
