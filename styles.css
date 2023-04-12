@@ -1,19 +1,47 @@
-/*  your css code here. If applicable */
 *{
-	margin:0px;
-	padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
-.card{
-	width: 10%;
-	background-colour:black;
+body{
+    font-family:'Times New Roman', Times, serif;
 }
+
+.cards{
+    width: 30%;
+    background-color: rgb(19, 143, 85);
+    border-radius: 10px;
+    margin: 40px;
+    
+}
+
+
 .image img{
-	width: 80%;
-	
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 .title{
-	text-align:center;
+    text-align: center;
 }
 .Price{
-	text-align:center;
+    text-align: center;
+}
+.description{
+    text-align: center;
+}
+button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: red;
+    color: white;
+    padding: 5%;
+    border: 1px whitesmoke;
+    border-radius: 6px; 
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.25s;
+   
 }
